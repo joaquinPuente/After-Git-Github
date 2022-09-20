@@ -18,9 +18,10 @@ p {
 }
 
 footer {
-    background-color: aquamarine;
+    background-color: aquamarine;   
 }
 
 footer p {
     color: gray;
+    font-weight: bold;
 }
