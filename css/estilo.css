@@ -9,6 +9,14 @@ h1 {
     text-align: center;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
 h2 {
     color: blue;
 }
@@ -17,11 +25,21 @@ p {
     color: brown;
 }
 
+
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: aquamarine;   
 }
 
 footer p {
     color: gray;
     font-weight: bold;
+}
+
+img {
+    width: 300px;
+    height: 300px;
 }
